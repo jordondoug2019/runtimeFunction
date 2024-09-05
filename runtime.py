@@ -8,7 +8,7 @@
 #return uptime rounded to a percentage
 
 def runtime(tHours, dHours):
-    uptime= (tHours-dHours)/tHours-100
+    uptime= (tHours-dHours)/tHours*100
     print(round(uptime,2))
     return round(uptime,2)
 
